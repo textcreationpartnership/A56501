@@ -1,0 +1,733 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Appendix to the catalogue of Mr. James Partridge's books consisting of a choice collection of English books in divinity, history, law, romances, poetry, physick, and chirurgery ... in all volumes : to be sold by auction on Monday the 16th of this instant December ...</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 6 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56501</idno>
+            <idno type="STC">Wing P613</idno>
+            <idno type="STC">ESTC R28150</idno>
+            <idno type="EEBO-CITATION">10433018</idno>
+            <idno type="OCLC">ocm 10433018</idno>
+            <idno type="VID">45016</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A56501)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 45016)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1388:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Appendix to the catalogue of Mr. James Partridge's books consisting of a choice collection of English books in divinity, history, law, romances, poetry, physick, and chirurgery ... in all volumes : to be sold by auction on Monday the 16th of this instant December ...</title>
+                  <author>Partridge, James.</author>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1695?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Partridge, James --  Library.</term>
+               <term>Private libraries.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:45016:1" rendition="simple:additions"/>
+            <p>AN APPENDIX TO THE CATALOGUE Of Mr. <hi>James Partridge</hi>'s Books.</p>
+            <p>CONSISTING Of a Choice Collection of <hi>Engliſh</hi> Books in <hi>Divinity, Hiſtory, Law, Romances, Poetry, Phyſick</hi> and <hi>Chirurgery,</hi> and other Miſcella<g ref="char:EOLhyphen"/>neous Subjects.</p>
+            <p>In all VOLUMES.</p>
+            <p>To be Sold by Auction on <hi>Monday</hi> the <hi>16th</hi> of this inſtant <hi>December,</hi> at three of the Clock in the Afternoon, at the <hi>Naked Boy</hi> the Corner Shop of <hi>Pater-Noſter-Row</hi> and <hi>Warwick-Lane;</hi> being a very Large and Commodious Room, for the En<g ref="char:EOLhyphen"/>tertainment of all Gentlemen Buyers, <hi>&amp;c.</hi>
+            </p>
+            <list>
+               <head>CONDITIONS of <hi>SALE.</hi>
+               </head>
+               <item>I. THE higheſt Bidder is the Buyer, <hi>&amp;c.</hi>
+               </item>
+               <item>II. The Books, for ought we know, are perfect; if any appear other<g ref="char:EOLhyphen"/>wiſe before they be taken away, the Buyer has his choice of taking or leaving them.</item>
+               <item>III. That every Perſon give his Name and Place of Abode; paying alſo 5<abbr>
+                     <hi>s.</hi>
+                  </abbr> in the Pound for what he ſhall buy, and be obliged to take them away, and pay the remaining part of the Money at the Place of Sale, within three days after it be ended; the Buyer alſo paying Porterage.</item>
+               <item>IV. None to bid leſs than 6 <abbr>
+                     <hi>d.</hi>
+                  </abbr> when a Book ariſes to above 10 <abbr>s.</abbr>
+               </item>
+            </list>
+            <p>CATALOGUES may be had at Mr. <hi>Gilliflowers</hi> in <hi>Weſtmin<g ref="char:EOLhyphen"/>ſter-Hall.</hi> Mr. <hi>Wrights</hi> the <hi>Poſt-Office</hi> at <hi>Charing-croſs.</hi> Mr. <hi>Free<g ref="char:EOLhyphen"/>mans</hi> the <hi>Bible</hi> in <hi>Fleetſtreet.</hi> Mr. <hi>Richard Parkers</hi> in the <hi>Portico</hi> of the <hi>Royal-Exchange,</hi> and at the Place of Sale.</p>
+         </div>
+      </front>
+      <body>
+         <div type="auction_catalogue">
+            <div n="folio" type="size">
+               <pb n="2" facs="tcp:45016:2"/>
+               <head>BOOKS <hi>in</hi> Folio.</head>
+               <list>
+                  <item>1 <hi>JOhnſons</hi> hiſtory of the wonderful things in Nature</item>
+                  <item>2 Pleaſant Notes on Don <hi>Quixote</hi> and <hi>Sancho Pancha</hi>
+                  </item>
+                  <item>3 <hi>Townſends</hi> Hiſtorical Collections of Queen <hi>Elizabeths</hi> Parliaments</item>
+                  <item>4 <hi>Plutarchs</hi> Lives of the Gr. and Romans, and other illuſtrious Perſons</item>
+                  <item>5 Bp. <hi>Andrews</hi> on the Commandments and Lords Prayer</item>
+                  <item>6 Dr. <hi>Fullers</hi> hiſtory of the Holy War</item>
+                  <item>7 <hi>Sanders</hi>'s Phyſiognomy and Chiromancy</item>
+                  <item>8 The Holy Bible in Dutch</item>
+                  <item>9 <hi>Kendals</hi> Vindication of the Reformed Churches</item>
+                  <item>10 <hi>Calvins</hi> Inſtitutions, or Body of Divinity</item>
+                  <item>11 <hi>Heylins</hi> Coſmography, or Hiſtory of the World</item>
+                  <item>12 The Holy Bible, (black Letter) with large Notes</item>
+                  <item>13 Bp. <hi>Babingtons</hi> Sermons and Diſcourſes</item>
+                  <item>14 <hi>Du Bartas</hi> divine Weeks and VVorks</item>
+                  <item>15 <hi>Cotgraves</hi> French and Engliſh Dictionary</item>
+                  <item>16 Bp. <hi>Reynolds</hi>'s works (laſt)</item>
+                  <item>17 <hi>Eraſmus,</hi> on the New Teſtament, in 2 vol.</item>
+                  <item>18 <hi>M. Medes</hi> works, — (beſt)</item>
+                  <item>19 The Merchants Map of Commerce, or of univerſal Trade, by <hi>L. Roberts</hi>
+                  </item>
+                  <item>20 A Treatiſe of Juſtification againſt <hi>Bellarmine, &amp;c.</hi> by Dr. <hi>Downam</hi>
+                  </item>
+                  <item>21 <hi>Minſheus</hi> large Dictionary in 9 Languages</item>
+                  <item>22 The Virtuoſo of <hi>France,</hi> anſwering Queſtions Philoſophical</item>
+                  <item>23 Mr. <hi>Chillingworths</hi> works — laſt Edition</item>
+                  <item>24 Sir <hi>John Chardins</hi> Travels into <hi>Perſia,</hi> with Maps and Sculptures</item>
+                  <item>25 <hi>Tacqueti Opera Mathematica</hi>
+                  </item>
+                  <item>26 <hi>Cambdens Britannia</hi> — laſt Edition</item>
+                  <item>27 <hi>Herberts</hi> Travels — laſt</item>
+                  <item>28 <hi>Newmans</hi> Concordance</item>
+                  <item>29 The Book of Homilies to be read in Churches and Families</item>
+                  <item>30 <hi>Ambroſe Parrys</hi> Chyrurgery, with Figures — (laſt Edit.)</item>
+                  <item>31 <hi>Howels</hi> Hiſtory of the VVorld, 2di vol.</item>
+                  <item>32 <hi>Chaucers</hi> works, with his Life, and Explanation of difficult words</item>
+                  <item>33 <hi>Scapulas</hi> Lexicon, gr. lat. by <hi>Harman</hi> — <hi>Lond.</hi>
+                  </item>
+                  <item>34 <hi>Oglebys</hi> Hiſtory of <hi>China,</hi> with Maps and Sculptures — (complete)</item>
+                  <item>35 <hi>Oglebys</hi> Hiſtory of <hi>Aſia,</hi> with Maps and Figures</item>
+                  <item>36 Mr. <hi>Claudes</hi> Doctrine of the Euchariſt</item>
+                  <item>37 <hi>Speeds</hi> Maps of <hi>England, Scotland, Ireland, &amp;c.</hi> (laſt Edit.)</item>
+                  <item>38 <hi>Briggs</hi>'s <hi>Arithmetica-Logarithmet.</hi>
+                  </item>
+                  <item>39 <hi>Almahide,</hi> or the Captive Queen, a Romance</item>
+                  <item>40 <hi>Willets</hi> ſixfold Commentaries on <hi>Geneſis</hi> and <hi>Exodus</hi>
+                  </item>
+                  <pb n="3" facs="tcp:45016:2"/>
+                  <item>41 Dr. <hi>Littletons</hi> 6<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Sermons on ſeveral Occaſions</item>
+                  <item>42 The Dial of Princes, or hiſtory of Great Men</item>
+                  <item>43 Sir <hi>Robert Stapletons</hi> Juvenal, with Sculptures</item>
+                  <item>44 <hi>Oglebys</hi> Deſcription of <hi>America,</hi> with Maps and Sculptures</item>
+                  <item>45 Journal of St. <hi>Amour,</hi> concerning the five famous Propoſitions</item>
+                  <item>46 Thirty three Prints, in folio, of various Hiſtories</item>
+                  <item>47 Twnety ſix more, Buildings and Rarities in <hi>China</hi>
+                  </item>
+                  <item>48 Ten more, the Hiſtory of the Epheſian Matron</item>
+                  <item>49 Nineteen more, the Hiſtory of <hi>Androcheus</hi> and the Lyon</item>
+                  <item>50 Thirty nine more, of Birds, Beaſts, Mountains, <hi>&amp;c.</hi>
+                  </item>
+                  <item>51 Twenty five more, the Hiſtory of the Heathen Gods, their Temples, <hi>&amp;c.</hi>
+                  </item>
+                  <item>52 Twenty more, the Monuments, Habits, and Cuſtoms in <hi>China</hi>
+                  </item>
+                  <item>53 Dr. <hi>Goads</hi> Diſcourſes on the nature of the Bodies Coeleſtial</item>
+                  <item>54 The Jeſuits Morals, or their pernicious Errors in Morality</item>
+                  <item>55 Bp. <hi>
+                        <g ref="char:V">Ʋ</g>ſhers</hi> Life and Letters</item>
+                  <item>56 The Houſe of Mourning. Sermons by Dr. <hi>Featly, Sibs, &amp;c.</hi>
+                  </item>
+                  <item>57 <hi>Richardſons</hi> Account of the State of <hi>Europe</hi>
+                  </item>
+                  <item>58 Dr. <hi>Hammonds</hi> works, in 4 vol.</item>
+                  <item>59 Dr. <hi>Dounams</hi> Chriſtian Warfare</item>
+                  <item>60 <hi>Willars</hi>'s Miniſter of State</item>
+                  <item>61 <hi>Ben. Johnſons</hi> Plays</item>
+                  <item>62 The Hiſtory of <hi>Nero Ceſar,</hi> Emperour of <hi>Rome</hi>
+                  </item>
+                  <item>63 <hi>Britains</hi> Paſtorals, in Heroic-Verſe</item>
+                  <item>64 The Hiſtory of the Tragical Maſſacres in <hi>France</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="quarto" type="size">
+               <head>Books in <hi>Quarto.</hi>
+               </head>
+               <list>
+                  <item>65 <hi>CHamberlains</hi> Merchants Accompts.</item>
+                  <item>66 <hi>Kilbourns</hi> Survey of <hi>Kent.</hi>
+                  </item>
+                  <item>67 <hi>Tho. Goodwins</hi> works.</item>
+                  <item>68 Mr. <hi>Gregorys</hi> works</item>
+                  <item>69 <hi>Cawdrys</hi> Similies</item>
+                  <item>70 Paraphraſe on <hi>Romans, Corinth. &amp;c.</hi>
+                  </item>
+                  <item>71 Weekly Memorials for the ingenious.</item>
+                  <item>72 <hi>Charron</hi> of wiſdom</item>
+                  <item>73 The French Academy</item>
+                  <item>74 <hi>Tomſons</hi> Antichriſt arraigned.</item>
+                  <item>75 <hi>Mede,</hi> on the <hi>Revelations</hi>
+                  </item>
+                  <item>76 Firſt Conqueſt of the <hi>Indies</hi>
+                  </item>
+                  <item>77 <hi>Simſons</hi> Church Hiſtory</item>
+                  <item>78 Accomptants Guide</item>
+                  <item>79 The Holy Bible (white Letter)</item>
+                  <item>80 Dr. <hi>Falkners</hi> Sermons and Diſcourſes.</item>
+                  <item>81 <hi>Callis</hi> reading on the Stat. of Sewers.</item>
+                  <item>82 H of the Buccan. of <hi>Amer.</hi> in 4 par. comp.</item>
+                  <item>83 <hi>Le Febures</hi> complete Body of Chymiſtry.</item>
+                  <item>84 <hi>Biſhops</hi> Art of Aſtrology.</item>
+                  <item>85 <hi>Twiſdens</hi> Hiſtoric. Vindicat. of Ch. of <hi>Eug.</hi>
+                  </item>
+                  <item>86 <hi>Charltons</hi> Enquiries into Human Nature</item>
+                  <item>87 <hi>Callis</hi> reading on the Stat. of Sewers.</item>
+                  <item>88 The Grecian Story, an Hiſtorical Poem.</item>
+                  <item>89 Dr. <hi>Pierces</hi> Sermons</item>
+                  <item>90 — Sinnor implead. in his own Court.</item>
+                  <item>91 <hi>Patricks</hi> Parable of the Pilgrim</item>
+                  <item>92 Aſſemblies Confeſſion of Faith.</item>
+                  <item>93 <hi>Goodwin</hi> of being filled with the Spirit.</item>
+                  <item>94 <hi>Herodians</hi> imperial Hiſtory, Engliſh.</item>
+                  <item>95 Relations of famous Kingdoms</item>
+                  <item>96 Bp. <hi>Barlow</hi> againſt the Popes Bull</item>
+                  <item>97 <hi>Simons</hi> Vindication of K. <hi>Charles</hi> I.</item>
+                  <item>98 <hi>Smith, Englands</hi> Improvement</item>
+                  <item>99 <hi>Gaudens</hi> Defence of the Ch. of <hi>Engl.</hi>
+                  </item>
+                  <item>100 <hi>Schroderi Pharmacopoeia</hi>
+                  </item>
+                  <item>101 <hi>Renodaei &amp; Quecitan Pharmacop.</hi>
+                  </item>
+                  <item>102 <hi>Fromondê de Meteorolog.</hi>
+                  </item>
+                  <item>103 <hi>Piſcatoris Marſton Moor Bellum</hi>
+                  </item>
+                  <item>104 <hi>Gores</hi> Sermons</item>
+                  <item>105 <hi>Leighs</hi> Treatiſe of Divinity</item>
+                  <item>106 <hi>Bucanus</hi> Body of Divinity</item>
+                  <item>107 <hi>Digby</hi> of Bodies, and of the Soul.</item>
+                  <item>108 <hi>Reeves</hi> Relation of K. <hi>Charles</hi> II.</item>
+                  <item>109 <hi>Reynolds</hi> on the 110. Pſalm</item>
+                  <item>110 <hi>Barrows</hi> Method of Phyſick</item>
+                  <pb n="4" facs="tcp:45016:3"/>
+                  <item>111 <hi>Buncy,</hi> of the Rom. and Eng. Chur.</item>
+                  <item>112 Dr. <hi>Cowper</hi> on the <hi>Romans.</hi>
+                  </item>
+                  <item>113 Hiſt. of the Grand Seign. Seraglio.</item>
+                  <item>114 <hi>Yarrington Englands</hi> improvement.</item>
+                  <item>115 <hi>Auſtin</hi> of Fruit-trees.</item>
+                  <item>116 <hi>Hakewells</hi> Liberty of the Subject.</item>
+                  <item>117 Dr. <hi>Whitby</hi> againſt <hi>Creſſy.</hi>
+                  </item>
+                  <item>118 Bp. <hi>Reynolds</hi> on the Paſſion.</item>
+                  <item>119 Dr. <hi>Preſton</hi> on the Attributes.</item>
+                  <item>120 <hi>Vigo</hi>'s art of Chirurgery.</item>
+                  <item>121 Tryal of Mens wits</item>
+                  <item>122 <hi>Du Moulins</hi> vindic. of the Prot. Rel.</item>
+                  <item>123 <hi>Fitzherberts</hi> Policy and Religion.</item>
+                  <item>124 Everlaſting Fire no Fancy.</item>
+                  <item>125 <hi>Culverwells</hi> Light of Nature.</item>
+                  <item>126 <hi>Barclays Argenis</hi> with Fig by <hi>K Long</hi>
+                  </item>
+                  <item>127 Looking glaſs of the holy war.</item>
+                  <item>128 <hi>Cottons</hi> way of Life.</item>
+                  <item>129 <hi>Fownes</hi> 3 Offices of our Saviour.</item>
+                  <item>130 <hi>Warren</hi> on the Sabbath.</item>
+                  <item>131 <hi>Gurnals</hi> Chriſtian armour.</item>
+                  <item>132 <hi>Prinne</hi> Rights of Engliſh Freemen.</item>
+                  <item>133 <hi>Clavels</hi> Tables of Intereſt.</item>
+                  <item>134 Hiſt. of <hi>Juſtin</hi> in Engliſh.</item>
+                  <item>135 <hi>Balls</hi> Tryal of the Separatiſt.</item>
+                  <item>136 <hi>Baxters</hi> Key for Catholicks.</item>
+               </list>
+            </div>
+            <div n="octavo" type="size">
+               <head>
+                  <hi>Books in</hi> Octavo, &amp;c.</head>
+               <list>
+                  <item>1 <hi>RUſſels</hi> Phyſical treatiſe.</item>
+                  <item>2 Compleat Sollicitor and Clerk.</item>
+                  <item>3 Whole Duty of Man.</item>
+                  <item>4 <hi>Tates</hi> Poems.</item>
+                  <item>5 Holy Bible with C. Prayer.</item>
+                  <item>6 Myſteries of Love and Eloquence.</item>
+                  <item>7 Engliſh Rogues in 4 parts.</item>
+                  <item>8 Hiſtory of 12 Impoſtors.</item>
+                  <item>9 <hi>Hobbs</hi> Problems in Geometry.</item>
+                  <item>10 Sincere Convert.</item>
+                  <item>11 <hi>Cotton</hi> on the <hi>Canticles.</hi>
+                  </item>
+                  <item>12 <hi>Salmons</hi> Phyſ. and Chirur. obſerv.</item>
+                  <item>13 <hi>Maninghams</hi> 2 treatiſes.</item>
+                  <item>14 Hiſtorians Guide.</item>
+                  <item>15 Hiſtory of the French Academy.</item>
+                  <item>16 — of <hi>Mary</hi> Q. of <hi>Scotland.</hi>
+                  </item>
+                  <item>17 <hi>Bovet</hi> of Witches, Spirits, <hi>&amp;c.</hi>
+                  </item>
+                  <item>18 Preſent ſtate of <hi>Denmark.</hi>
+                  </item>
+                  <item>19 Admirable Rarities, <hi>&amp;c.</hi>
+                  </item>
+                  <item>20 Remarks on <hi>London.</hi>
+                  </item>
+                  <item>21 <hi>Molloy de Jure Maritimo.</hi>
+                  </item>
+                  <item>22 <hi>Plutarchs</hi> Morals, 5 vol.</item>
+                  <item>23 <hi>Medulla Hiſtoriae Anglicanae.</hi>
+                  </item>
+                  <item>24 <hi>Corn. Nepos</hi> Lives, <hi>&amp;c.</hi>
+                  </item>
+                  <item>25 <hi>Salmons</hi> Engliſh Phyſician.</item>
+                  <item>26 Pract. Regiſter.</item>
+                  <item>27 <hi>Walkers</hi> Particles.</item>
+                  <item>28 <hi>Greenhil</hi> of S. of Heart.</item>
+                  <item>29 <hi>Traherns</hi> Chriſtian Ethicks.</item>
+                  <item>30 Art to know Men.</item>
+                  <item>31 <hi>Dods</hi> Sermons.</item>
+                  <item>32 <hi>Ford</hi> of Redemption.</item>
+                  <item>33 <hi>Sympſon</hi> of Juſtification.</item>
+                  <item>34 Man without Paſſion.</item>
+                  <item>35 <hi>Hoards</hi> Gods Love.</item>
+                  <item>36 <hi>Leigh</hi> Roman Empire.</item>
+                  <item>37 <hi>Chears</hi> word in ſeaſon.</item>
+                  <item>38 <hi>Leuſdens</hi> Greek Teſtament.</item>
+                  <item>39 Court of Curioſity.</item>
+                  <item>40 <hi>Mores</hi> Mathematical Compendium.</item>
+                  <item>41 <hi>Patricks</hi> Chriſtian Sacrifice.</item>
+                  <item>42 Cuſtoms of ſeveral Nations.</item>
+                  <item>43 Several Bibles in 120. and 24.</item>
+                  <item>44 <hi>Featleys</hi> Devotions.</item>
+                  <item>45 <hi>Epictetus</hi> Maxims of Morality.</item>
+                  <item>46 Wits Cabinet.</item>
+                  <item>47 <hi>Ainſworths</hi> Communion of Saints.</item>
+                  <item>48 <hi>Vincent</hi> Aſſemblies Catachiſm.</item>
+                  <item>49 <hi>Malvezzi</hi> on <hi>Alcibiades.</hi>
+                  </item>
+                  <item>50 Fortunate and unfortunate Lovers. <hi>Fr.</hi>
+                  </item>
+                  <item>51 <hi>Blunts</hi> Voyage to the <hi>Levant.</hi>
+                  </item>
+                  <item>52 Hiſt. of the wars of <hi>Cyprus</hi> againſt the <hi>Turks.</hi>
+                  </item>
+                  <item>53 — of <hi>Adam</hi> and <hi>Eve,</hi> by <hi>Pettus.</hi>
+                  </item>
+                  <item>54 <hi>Howells</hi> Familiar Letters.</item>
+                  <item>55 <hi>Miltons</hi> Paradiſe regained.</item>
+                  <item>56 <hi>Lawrence</hi> Hiſt. of <hi>Ireland.</hi>
+                  </item>
+                  <item>57 Ld. <hi>Bacons</hi> genuine Remains.</item>
+                  <item>58 <hi>P. Walſhes</hi> Letters</item>
+                  <item>59 Hiſt. of 12 Infamous Impoſtors.</item>
+                  <item>60 <hi>Sherlocks</hi> Caſe of Reſiſtance.</item>
+                  <item>61 <hi>Sandys</hi> view of Religions.</item>
+                  <item>62 Comment. on <hi>Chaucers</hi> Tales.</item>
+                  <item>63 <hi>Waſes</hi> Dictionary</item>
+                  <item>64 <hi>Pettys</hi> tryal of Spirits.</item>
+                  <item>65 Treatiſe of Cutting the Stone, with 20 Figures.</item>
+                  <item>66 <hi>Stillingfleet</hi> againſt <hi>Creſſy.</hi>
+                  </item>
+                  <pb n="5" facs="tcp:45016:3"/>
+                  <item>67 Court and Character of K. <hi>James</hi>
+                  </item>
+                  <item>68 Account of the Noble Found. of the <hi>Charter-houſe</hi>
+                  </item>
+                  <item>69 <hi>Petit</hi> Rights of the Comm. of <hi>Eng.</hi>
+                  </item>
+                  <item>70 <hi>Filmers Patriarcha</hi>
+                  </item>
+                  <item>71 <hi>Patricks</hi> divine Arithmetick.</item>
+                  <item>72 <hi>Hobbs</hi> Tracts, <hi>Behemoth,</hi> &amp;c.</item>
+                  <item>73 <hi>Turner</hi> of Neceſſity and Freedom</item>
+                  <item>74 <hi>Parkers</hi> acc. of Ch. Government</item>
+                  <item>75 Compleat Sollicitor and Attorney</item>
+                  <item>76 <hi>Salmon</hi> Druggiſt ſhop opened</item>
+                  <item>77 Hiſt. of the <hi>Turks</hi> to 1684</item>
+                  <item>78 <hi>Englands</hi> Heroical Epiſt. by <hi>Drayton</hi>
+                  </item>
+                  <item>79 <hi>Glanvil</hi> of Experimental Philoſophy</item>
+                  <item>80 Life of Dr. <hi>Heylin</hi>
+                  </item>
+                  <item>81 <hi>Elians</hi> various Hiſtories Engl.</item>
+                  <item>82 Sir G. <hi>Whartons</hi> Mathematical works.</item>
+                  <item>83 Hiſtory of <hi>Venice,</hi> with the uſe of the Ballotting Box</item>
+                  <item>84 <hi>Lithgows</hi> 19 years Travels</item>
+                  <item>85 Select Diſc. of the Wits of <hi>France</hi>
+                  </item>
+                  <item>86 Bp. <hi>Sanderſons</hi> Life, with Caſes reſolv.</item>
+                  <item>87 <hi>Guidots</hi> account of the Bath</item>
+                  <item>88 Ch. <hi>Cottons</hi> Poems on ſeveral occaſ.</item>
+                  <item>89 Engliſh Princes, a Novel</item>
+                  <item>90 <hi>Heliodorus</hi> Ethiopian Hiſt. Eng.</item>
+                  <item>91 Holy Bible in 2 vol.</item>
+                  <item>92 <hi>Roſs</hi> view of all Religions</item>
+                  <item>93 Fulfilling the Scripture, 2 vol.</item>
+                  <item>94 Diſc. of the Repugnancy of ſin</item>
+                  <item>95 <hi>Brooks</hi> precious Remedies</item>
+                  <item>96 <hi>Cheynel</hi> of the Trinity</item>
+                  <item>97 <hi>Rolls</hi> anſwer to the Friendly debate</item>
+                  <item>98 The Buckler of State and Juſtice</item>
+                  <item>99 <hi>Brinfleys</hi> Sermons on the Brazen Serp.</item>
+                  <item>100 <hi>Simons</hi> Cure of a deſerted Soul</item>
+                  <item>101 <hi>Corbet</hi> Kingd. of God among men</item>
+                  <item>102 <hi>Polhil</hi> of the divine will.</item>
+                  <item>103 Aſſemblies Catech in lat.</item>
+                  <item>104 <hi>Reyners</hi> neceſſity of human learning</item>
+                  <item>105 Diſc on the 5 books of <hi>Moſes</hi>
+                  </item>
+                  <item>106 <hi>Cartwright</hi> doctrine of Faith</item>
+                  <item>107 <hi>Baxter</hi> of juſtifying Righteouſneſs</item>
+                  <item>108 Fathers Legacy to his Children</item>
+                  <item>109 <hi>Davenant</hi> againſt <hi>Hoard</hi>
+                  </item>
+                  <item>110 <hi>Baxter</hi> ſatisfaction in Religion</item>
+                  <item>111 —Safe Religion</item>
+                  <item>112 — Holy Common wealth</item>
+                  <item>113 Scripture truly cleared</item>
+                  <item>114 <hi>Gee</hi> of Prayer and Magiſtracy</item>
+                  <item>115 Abridgment of Dr. <hi>Preſtons</hi> works</item>
+                  <item>116 <hi>Wolſley</hi> Reaſonableneſs of Scripture Belief</item>
+                  <item>117 <hi>Chalours</hi> 6 Sermons</item>
+                  <item>118 <hi>Spurſtow</hi> on the Promiſes</item>
+                  <item>119 <hi>Corbets</hi> Intereſt of <hi>England</hi>
+                  </item>
+                  <item>120 <hi>Owen</hi> againſt <hi>Parker</hi>
+                  </item>
+                  <item>120 <hi>Strong</hi> of the will of man</item>
+                  <item>121 <hi>Lowth</hi> Subject of Ch. Power</item>
+                  <item>122 <hi>Corbet</hi> diſc. of Prayer</item>
+                  <item>123 <hi>Hunts</hi> Poſtſcript</item>
+                  <item>124 <hi>Quarles</hi> Div. Poems</item>
+                  <item>125 <hi>Taylors</hi> Holy dying</item>
+                  <item>126 <hi>Vennings</hi> Myſteries and Revelations</item>
+                  <item>127 Right of Dominion and Liberty</item>
+                  <item>128 <hi>Wall</hi> none but Chriſt</item>
+                  <item>129 True original of the Soul</item>
+                  <item>130 <hi>Howels</hi> inſpect. into the Long Parl.</item>
+                  <item>131 <hi>Robotham</hi> preciouſneſs of Chriſt</item>
+                  <item>132 <hi>Grotius</hi> of Providence, <hi>&amp;c.</hi>
+                  </item>
+                  <item>133 Caſe of Correction, Inſtruct. <hi>&amp;c.</hi>
+                  </item>
+               </list>
+            </div>
+         </div>
+         <div type="auction_catalogue">
+            <div n="folio" type="size">
+               <head>BOOKS in <hi>Folio.</hi>
+               </head>
+               <list>
+                  <item>1 <hi>CAeſars</hi> Commentaries with Sculptures, by <hi>Edmunds</hi>
+                  </item>
+                  <item>2 The Tryal of the ſeven Biſhops</item>
+                  <item>3 Dr. <hi>Gell</hi> on the New Teſtament</item>
+                  <item>4 A Volume of Narratives</item>
+                  <pb n="6" facs="tcp:45016:4"/>
+                  <item>5 Annals of K. <hi>James</hi> and K. <hi>Charles</hi> I.</item>
+                  <item>6 Sir <hi>J. Chardins</hi> Travels into <hi>Perſia</hi> with Sculp.</item>
+                  <item>7 <hi>Salmons</hi> Tranſlation of <hi>Diemerbroecks</hi> Anatomy with Figures</item>
+                  <item>8 <hi>Cabala,</hi> Letters of State, laſt edit.</item>
+                  <item>9 <hi>Crooks</hi> Anatomy of human bodies with Figures</item>
+                  <item>10 <hi>Cleopatra</hi> a Romance</item>
+                  <item>11 Dr. <hi>Wallis Algebra,</hi> Hiſtorical and Rational</item>
+                  <item>12 <hi>Daltons</hi> Country Juſtice</item>
+                  <item>13 <hi>Syſtema Agricultura,</hi> or Body of Husbandry</item>
+                  <item>14 The Apochrypha, of the Black letter</item>
+                  <item>15 Bp. <hi>Taylors</hi> Polemical diſcourſes</item>
+                  <item>16 <hi>Pharmacopoeia Londinenſis</hi>
+                  </item>
+                  <item>17 The Book of Martyrs in 2 vol.</item>
+                  <item>18 <hi>Minſhews</hi> Dictionary in 9 Languages</item>
+                  <item>19 <hi>Richardſons</hi> State of <hi>Europe</hi>
+                  </item>
+                  <item>20 <hi>Boccacio</hi>'s 100 Novels or Tales</item>
+                  <item>21 <hi>Hall</hi> of Government and Obedience</item>
+                  <item>22 <hi>Rogers</hi> 7 Treatiſes, or Body of Divinity</item>
+                  <item>23 <hi>Howards</hi> defence againſt the Poiſon of ſuppoſed Prophecy</item>
+                  <item>24 Dr. <hi>Heylins</hi> Hiſtorical and Miſcellaneous Tracts</item>
+                  <item>25 <hi>Thorotons</hi> deſcription of <hi>Nottinghamſhire,</hi> with Sculptures.</item>
+                  <item>26 <hi>Calvins</hi> Inſtitutions in Engliſh, or Body of divinity</item>
+                  <item>27 <hi>Howels Dodona</hi>'s Grove, or Vocal Foreſt</item>
+                  <item>28 <hi>Sandys</hi> Paraphraſe on the Pſalms, and divine Poems</item>
+                  <item>29 The Triumphs of the Prince of <hi>Naſſau</hi>
+                  </item>
+                  <item>30 <hi>Carters</hi> Reports</item>
+                  <item>31 <hi>Sinderfins</hi> Reports</item>
+                  <item>32 <hi>Brownlows</hi> Book of Entries</item>
+                  <item>33 <hi>Finch</hi> of the Law</item>
+                  <item>34 <hi>Pultons</hi> Statutes, with <hi>Manbys</hi> Continuation, 2 vol.</item>
+                  <item>35 <hi>Daltons</hi> Office of Sheriffs</item>
+                  <item>36 <hi>Pulton de pace Regis &amp; Regni</hi>
+                  </item>
+                  <item>37 <hi>Plowdens</hi> Commentaries or Reports, firſt vol. with the Table</item>
+                  <item>38 <hi>Scobels</hi> Collection of Acts and Ordinances, laſt Edid.</item>
+                  <item>39 <hi>Daltons</hi> Country Juſtice of the Peace</item>
+                  <item>40 <hi>Edmunds</hi> on <hi>Caeſars</hi> Commentaries, with Sculptures.</item>
+                  <item>41 <hi>Aeſops</hi> Fables, tranſlated by Sir <hi>Roger Leſtrange</hi>
+                  </item>
+                  <item>42 <hi>Hookers</hi> Laws of Eccleſiaſtical Polity</item>
+                  <item>43 Collection of my Lord <hi>Bacons</hi> works</item>
+                  <item>44 <hi>Townſends</hi> Collections of Q. <hi>Elizabeths</hi> Parliaments</item>
+                  <item>45 <hi>Daltons</hi> Country Juſtice of the Peace</item>
+                  <item>46 <hi>Howard</hi> againſt the Poyſon of ſuppoſed Prophecy</item>
+                  <item>47 Sticht Books in <hi>Folio, viz.</hi> Collection of New Songs. <hi>Wallers</hi> Poem to the King. Life of the Earl of <hi>Oſſory. Albioz</hi> and <hi>Albianus,</hi> by <hi>Dryden.</hi> Falſe one, a Tragedy. Life of Mr. <hi>Hobbs. Henry</hi> V. and <hi>Muſtapha.</hi> Noble Gentleman, a Play.</item>
+                  <item>48 Sticht Books, in <hi>Folio, viz. Natb. Readings</hi> Tryal. <hi>Chillingworths</hi> Judgment of Religion. Account of <hi>Penſilvania,</hi> by <hi>Penn.</hi> Narrative of Popiſh Cruelties beyond Sea. <hi>Prances</hi> Narrative. Character of a Popiſh Succeſſor. <hi>Tu. Oats</hi> Narrative of the Plot. Depoſitions concerning the Prince of <hi>Wales.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="quarto" type="size">
+               <pb n="7" facs="tcp:45016:4"/>
+               <head>Books in <hi>Quarto.</hi>
+               </head>
+               <list>
+                  <item>49 DR. <hi>Preſtons</hi> Saints Qualifications.</item>
+                  <item>50 <hi>Holydays</hi> Motives to a good Life.</item>
+                  <item>51 L'<hi>Eſtrange</hi>'s Memento</item>
+                  <item>52 Bp. <hi>Reynolds</hi> on <hi>Hoſea</hi>
+                  </item>
+                  <item>53 <hi>Blundevels</hi> Diſcourſe of the 7 Planets.</item>
+                  <item>54 <hi>Godwins</hi> Roman and Jewiſh Antiquities.</item>
+                  <item>55 <hi>Abernethys</hi> Phyſick for the Soul</item>
+                  <item>56 <hi>Burroughs,</hi> of Heart-diviſions</item>
+                  <item>57 <hi>Stephens</hi>'s large Treatiſe of Tythes.</item>
+                  <item>58 <hi>Bulkeleys</hi> Goſpel-Covenant</item>
+                  <item>59 <hi>Boltons</hi> ſtate of true Happineſs, and other Treatiſes</item>
+                  <item>60 <hi>Dr. Sutton,</hi> on the <hi>Romans</hi>
+                  </item>
+                  <item>61 — Hiſt. of the Grand Seign. Seraglio.</item>
+                  <item>62 <hi>Gurnets</hi> Chriſtian Armour, in 2 vol.</item>
+                  <item>63 <hi>Jus Divinum,</hi> of Presbitery</item>
+                  <item>64 <hi>Clarendon</hi> againſt <hi>Hobbs</hi>
+                  </item>
+                  <item>65 <hi>Ames</hi>'s Marrow of divinity</item>
+                  <item>66 Mr. <hi>John Corbets</hi> Remains</item>
+                  <item>67 <hi>Cradock,</hi> Goſpel-Liberty</item>
+                  <item>68 <hi>Godwin,</hi> Roman and Jewiſh Antiquit.</item>
+                  <item>69 <hi>Ball,</hi> Pulpit-Patronage</item>
+                  <item>70 <hi>Fullers</hi> Lives, Mod. Divines</item>
+                  <item>71 <hi>Tho. Goodwins</hi> VVorks</item>
+                  <item>72 <hi>Burgeſs,</hi> of Juſtification</item>
+                  <item>73 <hi>Digby,</hi> of Bodies, and of the Soul.</item>
+                  <item>74 <hi>Stierii Doctrinae Log. &amp;c.</hi>
+                  </item>
+                  <item>75 <hi>Salmon,</hi> practice of curing Diſeaſes.</item>
+                  <item>76 Hiſt. of the Buccaniers of <hi>Americ.</hi> compl.</item>
+                  <item>77 <hi>Tullii Oration. cum Not. Frenii,</hi> 3 vol.</item>
+                  <item>78 <hi>Roſs</hi>'s view of the Jewiſh Religion.</item>
+                  <item>79 <hi>Dolbens</hi> Polemical Queſtions</item>
+                  <item>80 <hi>Oclandi Anglorum Preliae</hi>
+                  </item>
+                  <item>81 <hi>Chambre,</hi> on the Paſſions</item>
+                  <item>82 <hi>Sandys</hi>'s Paraphraſe on the Pſalms</item>
+                  <item>83 <hi>Goodwin,</hi> of Puniſhment of Sin</item>
+                  <item>84 <hi>Clarendon</hi> againſt <hi>Creſſey</hi>
+                  </item>
+                  <item>85 <hi>Dr. Ingelo,</hi> Perfection of the Scriptures.</item>
+                  <item>86 <hi>Dr. Sall,</hi> Cath. Faith in the Ch. of <hi>Engl.</hi>
+                  </item>
+                  <item>87 <hi>Dr. Guild,</hi> on the <hi>Revelations</hi>
+                  </item>
+                  <item>88 Hiſtory of <hi>Don John</hi> of <hi>Auſtria</hi>
+                  </item>
+                  <item>89 <hi>Puffendorf,</hi> Hiſt. of Popedom</item>
+                  <item>90 The Bowmans Glory of Archery</item>
+                  <item>91 Bp. <hi>Morton,</hi> Ezekiels VVheels</item>
+                  <item>92 <hi>De rebus Catholicorum in Hibernia</hi>
+                  </item>
+                  <item>93 <hi>Comber,</hi> Roman Forgeries</item>
+                  <item>94 A Letter concerning the Biſhops ſitting in Parliament</item>
+                  <item>95 <hi>Wall,</hi> None but Chriſt</item>
+                  <item>96 The godly Man's delight</item>
+                  <item>97 <hi>Bovet,</hi> of Spirits, VVitches, <hi>&amp;c.</hi>
+                  </item>
+                  <item>98 Preſent ſtate of <hi>Denmark</hi>
+                  </item>
+                  <item>99 <hi>Bonquet,</hi> a Noſegay, in Fren. and Eng.</item>
+                  <item>100 The Hiſtorians guide</item>
+                  <item>101 The young Clerks Vocabulary, in <hi>
+                        <gap reason="illegible" resp="#UOM" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>
+                     </hi> and Engliſh</item>
+                  <item>102 <hi>Blunts</hi> Voyage of the <hi>Levant</hi>
+                  </item>
+                  <item>103 <hi>Malvezzi</hi> Lives of <hi>Alcibiades</hi> and <hi>Corio<g ref="char:EOLhyphen"/>lanus</hi>
+                  </item>
+                  <item>104 <hi>Vincent,</hi> on the Aſſemb. Cat. large pr.</item>
+                  <item>105 <hi>Ainſworth</hi> Communion of Saints.</item>
+                  <item>106 VVits Cabinet, Letters, Songs, <hi>&amp;c.</hi>
+                  </item>
+                  <item>107 Cuſtoms of ſeveral Nations</item>
+                  <item>108 <hi>Dr. Featly,</hi> Fountain of Tears.</item>
+                  <item>109 Bp. <hi>Patricks</hi> Chriſtian Sacrifice</item>
+                  <item>110 <hi>Epictetus</hi> Maxims of Morality.</item>
+                  <item>111 <hi>Mores</hi> Mathematical Compendium.</item>
+                  <item>112 Hiſtorical Remarks on <hi>London</hi>
+                  </item>
+                  <item>113 Admirable Curioſities, Rarities, <hi>&amp;c.</hi>
+                  </item>
+                  <item>114 <hi>Leuſden,</hi> Greek Teſtament (cur. print)</item>
+                  <item>115 Life of <hi>Mary</hi> Queen of <hi>Scots</hi>
+                  </item>
+                  <item>116 Court of Curioſities, Interpr. of Dream.</item>
+                  <item>117 Fortunate and unfortun. Lovers, Fren.</item>
+                  <item>118 <hi>Vincent,</hi> Chriſtian Inſtruction</item>
+                  <item>119 Preſent ſtate of <hi>Denmark</hi>
+                  </item>
+                  <item>120 <hi>Bovet,</hi> of VVitches, Spirits, <hi>&amp;c.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="octavo" type="size">
+               <head>Books in <hi>Octavo.</hi>
+               </head>
+               <list>
+                  <item>121 <hi>NOrris</hi> of the Covenant.</item>
+                  <item>122 Epitome of the whole Art of VVar.</item>
+                  <item>123 <hi>Plutarchs</hi> Morals. 5 vol. (the beſt)</item>
+                  <item>124 <hi>Blaens Aſtronomicae.</hi>
+                  </item>
+                  <item>125 <hi>Medulla Hiſtoriae Anglicanae.</hi>
+                  </item>
+                  <item>126 <hi>Salmon</hi>'s Engliſh Phyſician.</item>
+                  <item>127 <hi>De Veil,</hi> on the Arts.</item>
+                  <item>128 <hi>Busbey</hi>'s Greek Grammar.</item>
+                  <item>129 <hi>Walker</hi>'s Proverbs.</item>
+                  <item>130 — Particles.</item>
+                  <item>131 <hi>Buxtorfi Lexicon.</hi>
+                  </item>
+                  <pb n="6" facs="tcp:45016:5"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="7" facs="tcp:45016:5"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="8" facs="tcp:45016:6"/>
+                  <item>132 <hi>Cornelius Agrippa,</hi> 2 vol.</item>
+                  <item>133 <hi>Fax nova.</hi>
+                  </item>
+                  <item>134 Lines of the Globes.</item>
+                  <item>135 <hi>Barns</hi> Ethicks, gr. lat.</item>
+                  <item>136 <hi>Oldham</hi>'s VVorks, gb.</item>
+                  <item>137 <hi>Norris</hi>'s Reaſons of Religion.</item>
+                  <item>138 <hi>Camden</hi>'s <hi>Britannia</hi> (laſt)</item>
+                  <item>139 <hi>Barklay</hi>'s <hi>Argenis.</hi>
+                  </item>
+                  <item>140 Miſcellanie-Poems, by <hi>Oxford</hi> hands.</item>
+                  <item>141 VVinter Evenings Conference, 3 parts.</item>
+                  <item>142 <hi>Powel</hi>'s Summons for Swearers.</item>
+                  <item>143 <hi>Noſce teipſum.</hi>
+                  </item>
+                  <item>144 <hi>Aſhwel</hi>'s <hi>Fides Apoſtolica.</hi>
+                  </item>
+                  <item>145 <hi>Reed</hi>'s Chirurgery. (gilt back)</item>
+                  <item>146 <hi>Sheffield,</hi> of Hypocrites.</item>
+                  <item>147 <hi>Dod</hi>'s Sermons.</item>
+                  <item>148 <hi>More</hi>'s Arithmetick. (gb.)</item>
+                  <item>149 <hi>Cornelius Nepos</hi> his Lives of illuſtrious Men.</item>
+               </list>
+            </div>
+            <div n="duodecimo" type="size">
+               <head>Books in <hi>Twelves.</hi>
+               </head>
+               <list>
+                  <item>150 <hi>MAchiavel</hi>'s Diſcourſes.</item>
+                  <item>151 <hi>Bovet,</hi> of VVitches.</item>
+                  <item>152 <hi>Europe</hi> a Slave, unleſs <hi>England</hi> break her Chains. A Novel.</item>
+                  <item>153 <hi>Barton</hi>'s Pſalms.</item>
+                  <item>154 <hi>Taylor</hi>'s Practice of Penitents.</item>
+                  <item>155 <hi>Culverwel</hi>'s Treatiſe of Faith.</item>
+                  <item>156 <hi>Mead</hi>'s almoſt Chriſtian.</item>
+                  <item>157 State of <hi>France.</hi> (gb.)</item>
+                  <item>158 VVits Cabinet.</item>
+                  <item>159 The great Aſſizes.</item>
+                  <item>160 <hi>Watſon</hi>'s Chriſtian Charter.</item>
+                  <item>161 Two Journeys to <hi>Jeruſalem.</hi>
+                  </item>
+                  <item>162 <hi>Pool</hi>'s Dialogue.</item>
+                  <item>163 A Conſpiracy of the Spaniard.</item>
+                  <item>164 <hi>Hill</hi>'s Phyſiognomie.</item>
+                  <item>165 <hi>Dyer</hi>'s VVorks.</item>
+               </list>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:45016:6"/>
+         </div>
+      </body>
+   </text>
+</TEI>
